@@ -38,17 +38,12 @@ module dynamic_array_1D;
     
     //array locator method
      $display("max value in the array =%b ", dyn_arr.max());
-    
-     
-    
 
   end
 endmodule
 
-
-
-    //output
-    '{'h0, 'h0, 'h0, 'h2, 'h0} 
+//output
+'{'h0, 'h0, 'h0, 'h2, 'h0} 
 size of dyn_arr=3
 '{'hf, 'h3, 'h4} 
 size of dyn_arr=5
@@ -57,3 +52,4 @@ size of dyn_arr=5
 1111
 '{'hf, 'h8, 'h4, 'h4, 'h1} 
 max value in the array =0000 
+ 
