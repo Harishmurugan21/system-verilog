@@ -1,4 +1,11 @@
-class packet;
+// Create 'cache_transaction' class:
+// rand bit [31:0] addr;
+// rand bit [1:0]  cache_op; // 0: READ, 1: WRITE, 2: INVALIDATE, 3: CLEAN
+// Constraints:
+// - If READ/WRITE -> addr[4:0] == 0 (32-byte aligned)
+// - If INVALIDATE -> addr inside {[0x1000:0x1FFF]}
+// - CLEAN not allowed with addr > 0x2000class packet;
+
   rand bit [31:0] addr;
   rand bit [1:0]  cache_op;
   
