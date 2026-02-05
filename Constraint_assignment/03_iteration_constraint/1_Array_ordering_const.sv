@@ -1,4 +1,3 @@
-
 // Create 'scheduler' class:
 // rand int time_slot[4];  // 4 time slots
 // rand int priority[4];   // priority 0-3
