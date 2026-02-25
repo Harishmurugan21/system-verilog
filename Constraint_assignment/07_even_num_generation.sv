@@ -20,6 +20,7 @@ module test;
       $display("var1=%0d(%b)",tr.var1,tr.var1);
     end
   end
+  
 endmodule
     
     
